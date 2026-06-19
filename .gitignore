@@ -1,4 +1,6 @@
 *.pdf
 *.zip
 *.key
-*.pptx.DS_Store
+*.pptx
+.DS_Store
+temp.ipynb
