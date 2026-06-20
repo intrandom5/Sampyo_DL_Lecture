@@ -36,3 +36,41 @@
     * 벤치, 롤러프레스 IR, 원심팬, 배기팬 매핑
 * 산출물
     * CNN-LSTM 모델 + 사내 적용 시나리오 문서
+
+## Day2
+### 1. Auto ML
+* PyCaret으로 10+ 모델 자동 학습/비교
+* 강의
+    * PyCaret 구조, setup, compare, tune 흐름
+* 실습
+    * UCI Concrete, 부서 데이터로 자동 비교, Top3 선정
+
+### 2. 모델 해석과 개선
+* SHAP Summary Plot, 변수 중요도 Top5 시각화
+* Optuna 하이퍼 튜닝
+* 강의
+    * SHAP, LIME 원리
+    * Optuna 사용법
+* 실습
+    * SHAP Summary, Force Plot
+    * Optuna 튜닝
+
+### 3. 로컬 모델 앱
+* 선정 모델을 Gradio, Streamlit 인터페이스로 감싸 현업 테스트
+* 강의
+    * Gradio, Streamlit 차이
+    * UI 패턴
+* 실습
+    * 로컬 구동 가능한 웹 앱 데모 UI 구성
+
+## Day3
+### 1. FastAPI와 Swagger
+* FastAPI를 이용해 모델을 REST API로 노출, Swagger UI 자동 생성
+* 강의
+    * FastAPI란?
+    * Pydantic 입력 검증과 비동기 흐름
+* 실습
+    * Colab에 FastAPI 코드 작성
+    * Swagger 테스트
+### 2. ngrok을 활용한 URL 공개
+* Colab에서 ngrok 터널로 외부 공개 URL 발급
